@@ -1,3 +1,0 @@
-Version 0.0.1 - Notes
-
-- contains 2 "short" cargo-wagons with Yuoki-Ore

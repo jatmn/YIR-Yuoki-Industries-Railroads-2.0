@@ -1,26 +1,71 @@
-------------------
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2025.04.14
+  Major Features:
+    - Updated for Factorio 2.0
+---------------------------------------------------------------------------------------------------
 Version: 1.1.20
 Date: 2021.02.07
-  Changes: - Recipe fixed
-           - Speed values rounded
-------------------
-
-z_yira_yuokirails_0.8.18
-	- compatible factorio 0.18.12
-	- gfx-update for "ex"-green-wagon -> now yellow
-
-z_yira_yuokirails_0.8.17
-	- compatible factorio 0.18.0
-
-z_yira_yuokirails_0.7.16	
-	- fixed wrong icon-names
-
-z_yira_yuokirails_0.7.15
-	- compatible factorio 0.17.31
-	- added USW and USL (ultra-short waggon and ultra-short locomotive)
-
-z_yira_yuokirails_0.7.14
-	- added NS2200 in red and gray/yellow - colors
-	
-z_yira_yuokirails_0.7.13
-	first version for factorio 0.17.0
+  Changes:
+    - Recipe fixed
+    - Speed values rounded
+---------------------------------------------------------------------------------------------------
+Version: 0.8.18
+  Changes:
+    - compatible factorio 0.18.12
+    - gfx-update for "ex"-green-wagon -> now yellow
+---------------------------------------------------------------------------------------------------
+Version: 0.8.17
+  Changes:
+    - compatible factorio 0.18.0
+---------------------------------------------------------------------------------------------------
+Version: 0.7.16
+  Changes:
+    - fixed wrong icon-names
+---------------------------------------------------------------------------------------------------
+Version: 0.7.15
+  Changes:
+    - compatible factorio 0.17.31
+    - added USW and USL (ultra-short waggon and ultra-short locomotive)
+---------------------------------------------------------------------------------------------------
+Version: 0.7.14
+  Changes:
+    - added NS2200 in red and gray/yellow - colors
+---------------------------------------------------------------------------------------------------
+Version: 0.7.13
+  Changes:
+    - first version for factorio 0.17.0
+---------------------------------------------------------------------------------------------------
+Version: 0.6.12
+  Changes:
+    - error fix 0.16
+---------------------------------------------------------------------------------------------------
+Version: 0.6.11
+  Changes:
+    - Update to be compatible with factorio 0.16
+---------------------------------------------------------------------------------------------------
+Version: 0.5.10
+  Changes:
+    - 1 new locomotive, 6 new cargo-wagons
+---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+  Changes:
+    - fixes the DE-SW 840 Green, also inlcudes new HD-res for this locomotive
+    - add 2 new cargo-wagon (Chest and Stuff)
+    - all gfx reduced in size by using the forum-script
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+  Changes:
+    - added 2 long cargo-wagons for Yuoki-Ore -> Youtube: https://www.youtube.com/watch?v=HeWUaTLscjI
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+  Changes:
+    - factorio 0.14.4 tested
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+  Changes:
+    - direct update to factorio 0.13
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+  Major Features:
+    - contains 2 "short" cargo-wagons with Yuoki-Ore
