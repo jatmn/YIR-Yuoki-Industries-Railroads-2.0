@@ -1,4 +1,4 @@
-require("lib.functions")
+functions = require("lib.functions")
 
 data:extend({
 	{
@@ -44,16 +44,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -98,16 +93,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -152,16 +142,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -206,16 +191,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -260,16 +240,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -314,16 +289,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -364,16 +334,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -418,16 +383,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -468,16 +428,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -518,16 +473,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -569,16 +519,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -616,9 +561,11 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
 		type = "cargo-wagon",
@@ -659,15 +606,10 @@ data:extend({
 		},
 		},
 		tie_distance = 50,
-		working_sound = {
-			sound = {
-				filename = "__base__/sound/train-wheels.ogg",
-				volume = 0.5
-			},
-			match_volume_to_activity = true
-		},
-		crash_trigger = crash_trigger(),
 		open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
 		close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+		crash_trigger = functions.crash_trigger,
+		wheels = functions.standard_train_wheels,
+		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	}
 })

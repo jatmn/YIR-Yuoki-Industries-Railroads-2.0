@@ -4,6 +4,7 @@ require ("prototypes.wagon_small")
 
 require ("prototypes.items")
 require ("prototypes.recipes")
+require ("prototypes.entity_updates")
 
 --unscaled
 --[[

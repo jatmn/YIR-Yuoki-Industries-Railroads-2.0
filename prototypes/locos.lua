@@ -136,7 +136,6 @@ data:extend({
 			{type = "physical", decrease = 15, percent = 30},
 			{type = "impact",decrease = 50,percent = 60},
 		},
-
 		energy_source =
 		{
 			type = "burner",
@@ -525,7 +524,6 @@ data:extend({
 				intensity = 0.6
 			}
 		},
-
 		pictures = {
 			rotated = {
 			priority = "very-low",
