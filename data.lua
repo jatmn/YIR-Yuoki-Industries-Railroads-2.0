@@ -1,11 +1,11 @@
-require ("prototypes.locos")
-require ("prototypes.wagon_big")
-require ("prototypes.wagon_small")
+require("prototypes.locos")
+require("prototypes.wagon_big")
+require("prototypes.wagon_small")
 
-require ("prototypes.items")
-require ("prototypes.recipes")
-require ("prototypes.technology")
-require ("prototypes.entity_updates")
+require("prototypes.items")
+require("prototypes.recipes")
+require("prototypes.technology")
+require("prototypes.entity_updates")
 
 --unscaled
 --[[

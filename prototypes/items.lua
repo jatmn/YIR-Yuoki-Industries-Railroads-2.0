@@ -32,7 +32,7 @@ data:extend({
 		order = "b-diesel-2",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "y_loco_diesel_620"
+		place_result = "y_loco_diesel_620",
 	},
 	{
 		type = "item",
@@ -92,7 +92,7 @@ data:extend({
 		order = "a-steam-0",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "yir_mre044"
+		place_result = "yir_mre044",
 	},
 	{
 		type = "item",
@@ -102,7 +102,7 @@ data:extend({
 		order = "a-steam-2-2",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "yir_kr_green"
+		place_result = "yir_kr_green",
 	},
 	{
 		type = "item",
@@ -112,7 +112,7 @@ data:extend({
 		order = "a-steam-1",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "yir_loco_steam_wt580of"
+		place_result = "yir_loco_steam_wt580of",
 	},
 })
 --wagonsSmall
@@ -125,7 +125,7 @@ data:extend({
 		order = "c1",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "yir_cw_cargo_green"
+		place_result = "yir_cw_cargo_green",
 	},
 	{
 		type = "item-with-entity-data",
@@ -135,7 +135,7 @@ data:extend({
 		order = "c1",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "yir_cw_cargo_blue"
+		place_result = "yir_cw_cargo_blue",
 	},
 })
 --wagonsBig
@@ -158,7 +158,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_6a_maai1"
+		place_result = "z_yira_6a_maai1",
 	},
 	{
 		type = "item-with-entity-data",
@@ -168,7 +168,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "y_3acw_T10K"
+		place_result = "y_3acw_T10K",
 	},
 	{
 		type = "item-with-entity-data",
@@ -178,7 +178,7 @@ data:extend({
 		order = "c1",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_yiblue"
+		place_result = "z_yira_4a_cw_yiblue",
 	},
 	{
 		type = "item-with-entity-data",
@@ -188,7 +188,7 @@ data:extend({
 		order = "c1",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_yigreen"
+		place_result = "z_yira_4a_cw_yigreen",
 	},
 	{
 		type = "item-with-entity-data",
@@ -198,7 +198,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_kisten"
+		place_result = "z_yira_4a_cw_kisten",
 	},
 	{
 		type = "item-with-entity-data",
@@ -208,7 +208,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_stuff1"
+		place_result = "z_yira_4a_cw_stuff1",
 	},
 	{
 		type = "item-with-entity-data",
@@ -218,7 +218,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_energy"
+		place_result = "z_yira_4a_cw_energy",
 	},
 	{
 		type = "item-with-entity-data",
@@ -228,7 +228,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_eb1"
+		place_result = "z_yira_4a_cw_eb1",
 	},
 	{
 		type = "item-with-entity-data",
@@ -238,7 +238,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_gears"
+		place_result = "z_yira_4a_cw_gears",
 	},
 	{
 		type = "item-with-entity-data",
@@ -248,7 +248,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_kiste1"
+		place_result = "z_yira_4a_cw_kiste1",
 	},
 	{
 		type = "item-with-entity-data",
@@ -258,7 +258,7 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_ziegelgrau"
+		place_result = "z_yira_4a_cw_ziegelgrau",
 	},
 	{
 		type = "item-with-entity-data",
@@ -268,6 +268,6 @@ data:extend({
 		order = "e",
 		stack_size = 5,
 		icon_size = 64,
-		place_result = "z_yira_4a_cw_ziegelrot"
+		place_result = "z_yira_4a_cw_ziegelrot",
 	},
 })

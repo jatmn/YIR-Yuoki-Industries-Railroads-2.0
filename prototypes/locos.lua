@@ -7,9 +7,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/usl_icon.png",
 		icon_size = 64,
 		max_health = 1400,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-0.7, -1.6}, {1, 1.2}},
-		drawing_box = {{-1, -1}, {1, 1}},
+		collision_box = { { -0.6, -1.1 }, { 0.6, 1.1 } },
+		selection_box = { { -0.7, -1.6 }, { 1, 1.2 } },
+		drawing_box = { { -1, -1 }, { 1, 1 } },
 		weight = 500,
 		max_speed = 1,
 		max_power = "200kW",
@@ -18,68 +18,62 @@ data:extend({
 		friction_force = 0.5,
 		air_resistance = 0.00225,
 		vertical_selection_shift = -0.5,
-		connection_distance = 2.2, 
+		connection_distance = 2.2,
 		joint_distance = 1.1,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
+		resistances = {
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -88,9 +82,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/sw-green-icon.png",
 		icon_size = 64,
 		max_health = 1400,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		weight = 2000,
 		max_speed = 1,
 		max_power = "840kW",
@@ -99,68 +93,62 @@ data:extend({
 		friction_force = 0.5,
 		air_resistance = 0.00225,
 		vertical_selection_shift = -0.5,
-		connection_distance = 3, 
+		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
+		resistances = {
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -169,9 +157,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/ns2200wr_icon.png",
 		icon_size = 64,
 		max_health = 1400,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		weight = 2000,
 		max_speed = 1,
 		max_power = "1000kW",
@@ -180,68 +168,62 @@ data:extend({
 		friction_force = 0.5,
 		air_resistance = 0.00225,
 		vertical_selection_shift = -0.5,
-		connection_distance = 3, 
+		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
+		resistances = {
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -250,9 +232,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/ns2200gg_icon.png",
 		icon_size = 64,
 		max_health = 1400,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		weight = 2000,
 		max_speed = 1,
 		max_power = "1100kW",
@@ -261,69 +243,63 @@ data:extend({
 		friction_force = 0.5,
 		air_resistance = 0.00225,
 		vertical_selection_shift = -0.5,
-		connection_distance = 3, 
+		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
+		resistances = {
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
 
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -332,9 +308,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/LOK_D1_icon.png",
 		icon_size = 64,
 		max_health = 900,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
@@ -347,31 +323,31 @@ data:extend({
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
 		resistances = {
-			{type = "fire", decrease = 15, percent = 50},
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact", decrease = 50, percent = 60},
-			{type = "explosion", decrease = 15, percent = 30},
-			{type = "acid", decrease = 10, percent = 20}
+			{ type = "fire", decrease = 15, percent = 50 },
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
+			{ type = "explosion", decrease = 15, percent = 30 },
+			{ type = "acid", decrease = 10, percent = 20 },
 		},
 		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 2,
 			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 200,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 3,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
-					starting_vertical_speed_deviation = 0.1
-				}
-			}
+					starting_vertical_speed_deviation = 0.1,
+				},
+			},
 		},
 		front_light = {
 			{
@@ -382,11 +358,11 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
@@ -396,12 +372,12 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
 	},
 	{
@@ -410,10 +386,10 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/sw-orange-icon.png",
 		icon_size = 64,
 		max_health = 1300,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
-		connection_distance = 3, 
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
+		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
 		max_speed = 1,
@@ -424,65 +400,59 @@ data:extend({
 		air_resistance = 0.0025,
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
+		resistances = {
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 2,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -491,9 +461,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/sw-dkred-icon.png",
 		icon_size = 64,
 		max_health = 2000,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		weight = 2000,
 		max_speed = 1,
 		max_power = "790kW",
@@ -505,65 +475,59 @@ data:extend({
 		connection_distance = 3,
 		joint_distance = 4,
 		energy_per_hit_point = 5,
-		resistances =
-		{
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact",decrease = 50,percent = 60},
+		resistances = {
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
-		energy_source =
-		{
+		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1,
 			fuel_inventory_size = 3,
-			smoke =
-			{
+			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
 					starting_vertical_speed_deviation = 0.1,
-				}
-			}
+				},
+			},
 		},
-		front_light =
-		{
+		front_light = {
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.6
+				intensity = 0.6,
 			},
 			{
 				type = "oriented",
 				minimum_darkness = 0.3,
-				picture =
-				{
+				picture = {
 					filename = "__core__/graphics/light-cone.png",
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.6
-			}
+				intensity = 0.6,
+			},
 		},
 	},
 	{
@@ -572,9 +536,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/sel_dkred_icon.png",
 		icon_size = 64,
 		max_health = 700,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		connection_distance = 3,
 		joint_distance = 4,
 		weight = 750,
@@ -587,28 +551,28 @@ data:extend({
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
 		resistances = {
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact", decrease = 50, percent = 60}
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
 		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1,
 			fuel_inventory_size = 2,
 			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
-					starting_vertical_speed_deviation = 0.1
-				}
-			}
+					starting_vertical_speed_deviation = 0.1,
+				},
+			},
 		},
 		front_light = {
 			{
@@ -619,11 +583,11 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
@@ -633,12 +597,12 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -647,9 +611,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/se_krgreen_icon.png",
 		icon_size = 64,
 		max_health = 700,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
@@ -662,28 +626,28 @@ data:extend({
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
 		resistances = {
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact", decrease = 50, percent = 60}
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
 		energy_source = {
 			type = "burner",
-			fuel_categories = {"chemical"},
+			fuel_categories = { "chemical" },
 			effectivity = 1.1,
 			fuel_inventory_size = 2,
 			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 100,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
-					starting_vertical_speed_deviation = 0.1
-				}
-			}
+					starting_vertical_speed_deviation = 0.1,
+				},
+			},
 		},
 		front_light = {
 			{
@@ -694,11 +658,11 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
@@ -708,12 +672,12 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
 	},
 	{
@@ -722,9 +686,9 @@ data:extend({
 		icon = "__z_yira_yuokirails__/graphics/icons/se_wt580of_icon.png",
 		icon_size = 64,
 		max_health = 700,
-		collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
-		selection_box = {{-1, -3}, {1, 3}},
-		drawing_box = {{-1, -4}, {1, 3}},
+		collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
+		selection_box = { { -1, -3 }, { 1, 3 } },
+		drawing_box = { { -1, -4 }, { 1, 3 } },
 		connection_distance = 3,
 		joint_distance = 4,
 		weight = 2000,
@@ -737,28 +701,28 @@ data:extend({
 		vertical_selection_shift = -0.5,
 		energy_per_hit_point = 5,
 		resistances = {
-			{type = "physical", decrease = 15, percent = 30},
-			{type = "impact", decrease = 50, percent = 60}
+			{ type = "physical", decrease = 15, percent = 30 },
+			{ type = "impact", decrease = 50, percent = 60 },
 		},
 		energy_source = {
 			type = "burner",
-			fuel_categories = {"yr_diesel"},
+			fuel_categories = { "yr_diesel" },
 			effectivity = 1.1,
 			fuel_inventory_size = 3,
 			smoke = {
 				{
 					name = "train-smoke",
-					deviation = {0.3, 0.3},
+					deviation = { 0.3, 0.3 },
 					frequency = 300,
-					position = {0, 0},
+					position = { 0, 0 },
 					starting_frame = 0,
 					starting_frame_deviation = 60,
 					height = 2,
 					height_deviation = 0.5,
 					starting_vertical_speed = 0.2,
-					starting_vertical_speed_deviation = 0.1
-				}
-			}
+					starting_vertical_speed_deviation = 0.1,
+				},
+			},
 		},
 		front_light = {
 			{
@@ -769,11 +733,11 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {-0.6, -16},
+				shift = { -0.6, -16 },
 				size = 2,
-				intensity = 0.8
+				intensity = 0.8,
 			},
 			{
 				type = "oriented",
@@ -783,12 +747,12 @@ data:extend({
 					priority = "medium",
 					scale = 2,
 					width = 200,
-					height = 200
+					height = 200,
 				},
-				shift = {0.6, -16},
+				shift = { 0.6, -16 },
 				size = 2,
-				intensity = 0.8
-			}
+				intensity = 0.8,
+			},
 		},
-	}
+	},
 })

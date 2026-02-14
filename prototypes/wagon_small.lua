@@ -8,8 +8,8 @@ data:extend({
 		icon_size = 64,
 		inventory_size = 10,
 		max_health = 400,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-0.9, -1.5}, {0.9, 1.5}},
+		collision_box = { { -0.6, -1.1 }, { 0.6, 1.1 } },
+		selection_box = { { -0.9, -1.5 }, { 0.9, 1.5 } },
 		weight = 350,
 		max_speed = 1,
 		braking_force = 2,
@@ -19,17 +19,15 @@ data:extend({
 		joint_distance = 1.1,
 		energy_per_hit_point = 5,
 		vertical_selection_shift = -0.5,
-		horizontal_doors =
-		{
-			layers =
-			{
+		horizontal_doors = {
+			layers = {
 				{
 					filename = "__z_yira_yuokirails__/graphics/usw_we.png",
 					line_length = 1,
 					width = 512,
 					height = 512,
 					frame_count = 1,
-					shift = {0, -0.625},
+					shift = { 0, -0.625 },
 					scale = 0.5,
 					animation_speed = 10,
 				},
@@ -39,24 +37,22 @@ data:extend({
 					width = 512,
 					height = 512,
 					frame_count = 1,
-					shift = {0, -0.625},
+					shift = { 0, -0.625 },
 					draw_as_shadow = true,
 					scale = 0.5,
 					animation_speed = 10,
-				}
-			}
+				},
+			},
 		},
-		vertical_doors =
-		{
-			layers =
-			{
+		vertical_doors = {
+			layers = {
 				{
 					filename = "__z_yira_yuokirails__/graphics/usw_ns.png",
 					line_length = 1,
 					width = 512,
 					height = 512,
 					frame_count = 1,
-					shift = {0, -0.625},
+					shift = { 0, -0.625 },
 					scale = 0.5,
 					animation_speed = 10,
 				},
@@ -66,12 +62,12 @@ data:extend({
 					width = 512,
 					height = 512,
 					frame_count = 1,
-					shift = {0, -0.625},
+					shift = { 0, -0.625 },
 					draw_as_shadow = true,
 					scale = 0.5,
 					animation_speed = 10,
-				}
-			}
+				},
+			},
 		},
 	},
 	{
@@ -81,8 +77,8 @@ data:extend({
 		icon_size = 64,
 		inventory_size = 20,
 		max_health = 400,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-1, -2}, {1, 2}},
+		collision_box = { { -0.6, -1.1 }, { 0.6, 1.1 } },
+		selection_box = { { -1, -2 }, { 1, 2 } },
 		weight = 500,
 		max_speed = 1,
 		braking_force = 2,
@@ -101,8 +97,8 @@ data:extend({
 		icon_size = 64,
 		inventory_size = 20,
 		max_health = 400,
-		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
-		selection_box = {{-1, -2}, {1, 2}},
+		collision_box = { { -0.6, -1.1 }, { 0.6, 1.1 } },
+		selection_box = { { -1, -2 }, { 1, 2 } },
 		weight = 500,
 		max_speed = 1,
 		braking_force = 2,
