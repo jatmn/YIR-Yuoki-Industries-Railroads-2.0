@@ -1,0 +1,117 @@
+local functions = require("lib.functions")
+
+data:extend({
+	{
+		type = "cargo-wagon",
+		name = "yir_us_cargo",
+		icon = "__z_yira_yuokirails__/graphics/icons/usw_icon.png",
+		icon_size = 64,
+		inventory_size = 10,
+		max_health = 400,
+		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
+		selection_box = {{-0.9, -1.5}, {0.9, 1.5}},
+		weight = 350,
+		max_speed = 1,
+		braking_force = 2,
+		friction_force = 0.0015,
+		air_resistance = 0.002,
+		connection_distance = 2.2,
+		joint_distance = 1.1,
+		energy_per_hit_point = 5,
+		vertical_selection_shift = -0.5,
+		horizontal_doors =
+		{
+			layers =
+			{
+				{
+					filename = "__z_yira_yuokirails__/graphics/usw_we.png",
+					line_length = 1,
+					width = 512,
+					height = 512,
+					frame_count = 1,
+					shift = {0, -0.625},
+					scale = 0.5,
+					animation_speed = 10,
+				},
+				{
+					filename = "__z_yira_yuokirails__/graphics/usw_we_shadow.png",
+					line_length = 1,
+					width = 512,
+					height = 512,
+					frame_count = 1,
+					shift = {0, -0.625},
+					draw_as_shadow = true,
+					scale = 0.5,
+					animation_speed = 10,
+				}
+			}
+		},
+		vertical_doors =
+		{
+			layers =
+			{
+				{
+					filename = "__z_yira_yuokirails__/graphics/usw_ns.png",
+					line_length = 1,
+					width = 512,
+					height = 512,
+					frame_count = 1,
+					shift = {0, -0.625},
+					scale = 0.5,
+					animation_speed = 10,
+				},
+				{
+					filename = "__z_yira_yuokirails__/graphics/usw_ns_shadow.png",
+					line_length = 1,
+					width = 512,
+					height = 512,
+					frame_count = 1,
+					shift = {0, -0.625},
+					draw_as_shadow = true,
+					scale = 0.5,
+					animation_speed = 10,
+				}
+			}
+		},
+	},
+	{
+		type = "cargo-wagon",
+		name = "yir_cw_cargo_green",
+		icon = "__z_yira_yuokirails__/graphics/icons/2aw_cargo_green_icon.png",
+		icon_size = 64,
+		inventory_size = 20,
+		max_health = 400,
+		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
+		selection_box = {{-1, -2}, {1, 2}},
+		weight = 500,
+		max_speed = 1,
+		braking_force = 2,
+		friction_force = 0.0015,
+		air_resistance = 0.002,
+		connection_distance = 3.6,
+		joint_distance = 1.8,
+		energy_per_hit_point = 5,
+		vertical_selection_shift = -0.5,
+		wheels = functions.standard_train_wheels,
+	},
+	{
+		type = "cargo-wagon",
+		name = "yir_cw_cargo_blue",
+		icon = "__z_yira_yuokirails__/graphics/icons/2aw_cargo_blue_icon.png",
+		icon_size = 64,
+		inventory_size = 20,
+		max_health = 400,
+		collision_box = {{-0.6, -1.1}, {0.6, 1.1}},
+		selection_box = {{-1, -2}, {1, 2}},
+		weight = 500,
+		max_speed = 1,
+		braking_force = 2,
+		friction_force = 0.0015,
+		air_resistance = 0.002,
+		connection_distance = 3.6,
+		joint_distance = 1.8,
+		energy_per_hit_point = 5,
+		vertical_selection_shift = -0.5,
+		wheels = functions.standard_train_wheels,
+	},
+})
