@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2026.11.04
+  Changes:
+    - Updated for Factorio 2.1 (requires base 2.1 and YIR - Yuoki Industries - Railways 1.4.0; Space Age, Quality, Recycler and Elevated Rails remain optional)
+    - Optional Yuoki Industries dependency now requires Yuoki 1.3.2 or newer (the Factorio 2.1 release)
+    - Recipes use the Factorio 2.1 recipe categories format, so locomotives and wagons are still crafted in the YIR workshops
+    - Removed locomotive properties that Factorio no longer reads
+    - Tall locomotives are fully shown in tooltips and entity previews again
+---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 2026.02.13
   Major Features:
